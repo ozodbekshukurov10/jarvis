@@ -44,6 +44,7 @@ $("#MicBtn").click(function () {
 
     $("#Oval").attr("hidden", true);      // yashirish
     $("#siriwave").attr("hidden", false); // ko‘rsatish
+    eel.takeCommand()();              // eel funksiyasini chaqirish
 
 });
 
